@@ -4,7 +4,7 @@ const tr=(o,k)=>(o[L]&&o[L][k])||o[k];
 function render(){
 const U=W.ui[L];document.documentElement.lang=L;
 document.querySelectorAll("[data-t]").forEach(el=>el.textContent=U[el.dataset.t]);
-$("gn").textContent=first(tr(W.groom,"name"));$("bn").textContent=first(tr(W.bride,"name"));
+$("gn").textContent=first(tr(W.bride,"name"));$("bn").textContent=first(tr(W.groom,"name"));
 $("hash").textContent=W.hashtag;
 $("ct").innerHTML=W.contacts.map(c=>`<div class="ct"><span>${tr(c,"name")}</span>${c.phone?`<a href="tel:${c.phone}">${c.phone}</a>`:""}</div>`).join("");
 $("tl").innerHTML=W.events.map((e,i)=>`<li class="${ready?"rv in":"rv"}"><div class="row"><h3 class="en" style="margin:0">${tr(e,"name")}</h3><span>${tr(e,"time")}</span></div>
