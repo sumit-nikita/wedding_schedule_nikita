@@ -9,7 +9,7 @@ window.W = {
     mr: { label: "मराठी", intro: "कार्यक्रम ची रूपरेषा व माहिती", celebrations: "शुभ कार्यक्रम", directions: "मार्ग पहा", details: "तपशील पहा", rsvp: "संपर्क करा", withlove: "सप्रेम, नक्षुलवार परिवार", made: "सप्रेम", fbbtn: "कृपया, हे क्लिक करून प्रतिसाद द्या" , ps : "हे फक्त तुमच्या वैयक्तिक वापरासाठी आहे, कृपया याबद्दल इतरांसोबत चर्चा करू नका,धन्यवाद!!" }  },
   contacts: [
     { name: "Nikita Nakshulwar", phone: "8329403908", mr: { name: "निकिता नक्षुलवार" } },
-    { name: "Saurabh Nakshulwar", phone: "7558692344", mr: { name: "सौरभ नक्षुलवार" } }
+    { name: "Saurabh Nakshulwar", phone: "7030008328", mr: { name: "सौरभ नक्षुलवार" } }
   ],
   events: [
     { name: "Departure to Destination", time: "07:00 AM", date: "3rd January, 2027", day: "Sunday", place: "From Our Home", map: "https://maps.app.goo.gl/u1QUzuom3jmGxSTKA", note: "Please be on Time",
