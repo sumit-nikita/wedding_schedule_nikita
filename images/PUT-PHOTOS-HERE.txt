@@ -1,0 +1,1 @@
+Put couple photos here, then set the file names in config.js

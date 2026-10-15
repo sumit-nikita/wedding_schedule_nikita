@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wedding Schedule</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Pinyon+Script&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="vine" viewBox="0 0 120 200"><g fill="none" stroke="#9b5b69" stroke-width="3" stroke-linecap="round">
+<path d="M12 190 C8 130 40 110 34 60 C31 36 52 20 64 34 C72 44 60 56 50 50"/>
+<path d="M34 120 C60 118 82 108 108 112"/><path d="M26 150 C44 146 56 150 72 168"/></g>
+<g fill="#9b5b69"><ellipse cx="22" cy="98" rx="10" ry="5" transform="rotate(-50 22 98)"/><ellipse cx="46" cy="84" rx="10" ry="5" transform="rotate(40 46 84)"/>
+<ellipse cx="70" cy="114" rx="11" ry="5" transform="rotate(-20 70 114)"/><ellipse cx="96" cy="108" rx="10" ry="5" transform="rotate(20 96 108)"/>
+<ellipse cx="60" cy="166" rx="10" ry="5" transform="rotate(40 60 166)"/><ellipse cx="14" cy="150" rx="9" ry="5" transform="rotate(-60 14 150)"/><circle cx="66" cy="30" r="6"/></g></symbol>
+</defs></svg>
+
+<main>
+<section class="hero frame">
+  <svg class="v tl"><use href="#vine"/></svg><svg class="v tr"><use href="#vine"/></svg>
+  <svg class="v bl"><use href="#vine"/></svg><svg class="v br"><use href="#vine"/></svg>
+  <p class="intro rv" data-t="intro"></p>
+  <h1 class="script rv"><span id="gn"></span><em>&amp;</em><span id="bn"></span></h1>
+  <p class="tag rv" id="hash"></p>
+</section>
+
+<section class="events">
+  <h2 class="script rv" data-t="celebrations"></h2>
+  <ol id="tl"></ol>
+</section>
+
+<section class="rsvp">
+  <div class="env2"><div class="card frame2 rv">
+    
+    <p class="with" data-t="withlove"></p><p class="rc" data-t="rsvp"></p><div id="ct"></div>
+    <a class="fbbtn" href="https://docs.google.com/forms/d/e/1FAIpQLScA8lLxM9_YhxUuB_sxEiAALuPQahR7jlNYxzci0A6_cQPwng/viewform" target="_blank" rel="noopener" data-t="fbbtn"></a>
+  </div>
+  <p class="note2" data-t="ps"></p>
+  </div>
+  <p class="made" data-t="made"></p> 
+
+</section>
+</main>
+
+<dialog id="dlg" aria-labelledby="dn"><div class="dbox"><button id="dx" aria-label="Close">&times;</button>
+<h3 id="dn" class="script"></h3><p id="dw"></p><p id="dtm" class="dt"></p><p id="dp" class="pl"></p><p id="dnote"></p>
+<div class="btns"><a id="dmap" data-t="directions" target="_blank" rel="noopener"></a></div></div></dialog>
+
+<button id="lang" aria-label="Language"></button>
+<button id="snd" hidden aria-label="Music on or off" aria-pressed="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#fff3e6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path class="w" d="M16 9a4 4 0 010 6M18.5 6.5a8 8 0 010 11"/><path class="x" d="M17 9l5 6M22 9l-5 6"/></svg></button>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body></html>
