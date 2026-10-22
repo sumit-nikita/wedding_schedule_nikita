@@ -5,7 +5,7 @@ window.W = {
   groom: { name: "Sumit Nandalwar", mr: { name: "सुमित नांदलवार" } },
   bride: { name: "Nikita Nakshulwar", mr: { name: "निकिता नक्षुलवार" } },
   ui: {
-       en: { label: "English", intro: "This is just a schedule for the wedding of", celebrations: "The Celebrations", directions: "Get Directions", details: "Event Details", rsvp: "RSVP / CONTACT", withlove: "With Love, Nandalwar's", made: "Made with love", fbbtn: "Please, Give Response by Clicking this", ps : "This is just for your personal use, Please do not discuss this with people. Thank you!!", and : "&"},
+       en: { label: "English", intro: "This is just a schedule for the wedding of", celebrations: "The Celebrations", directions: "Get Directions", details: "Event Details", rsvp: "RSVP / CONTACT", withlove: "With Love, Nakshulwar's", made: "Made with love", fbbtn: "Please, Give Response by Clicking this", ps : "This is just for your personal use, Please do not discuss this with people. Thank you!!", and : "&"},
       mr: { label: "मराठी", intro: "कार्यक्रम ची रूपरेषा व माहिती", celebrations: "शुभ कार्यक्रम", directions: "मार्ग पहा", details: "तपशील पहा", rsvp: "संपर्क करा", withlove: "सप्रेम, नक्षुलवार परिवार", made: "सप्रेम", fbbtn: "कृपया, हे क्लिक करून प्रतिसाद द्या" , ps : "हे फक्त तुमच्या वैयक्तिक वापरासाठी आहे, कृपया याबद्दल इतरांसोबत चर्चा करू नका,धन्यवाद!!", and : "संग" }  },
   contacts: [
     { name: "Nikita Nakshulwar", phone: "8329403908", mr: { name: "निकिता नक्षुलवार" } },
